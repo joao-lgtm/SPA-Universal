@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    color: #fff; 
+}   
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    padding: 4.0rem 0 0 7.2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+}
+
+nav ul li {
+    color: #C4C4CC;
+    font-size: 2.4rem;
+}
+
+nav ul :hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #C4C4CC;
+}
+
+a:focus{
+    color:#fff
+}
+
+.content{
+    
+    width: 400px;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    
+}
+
+.content h1{
+    font-size: 4.0rem;
+}
+
+.content button{
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 1.4rem 3.2rem;
+    font-size: 1.4rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.univesal, .explor{ 
+    padding: 6.3rem 0 0 9.2rem;
+    width: 700px;
+}
+
+.univesal :first-child , .explor :first-child {
+    font-size: 4.8rem;
+}
+
+.univesal p , .explor p{
+    padding: 1.6rem;
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+}
